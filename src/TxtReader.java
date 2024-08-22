@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TxtReader {
     // want to use private to keep attribute within class //
-    private File file;
+    private final File file;
 
     // Set up constructor to instantiate into main with the file object
     // as a parameter.
